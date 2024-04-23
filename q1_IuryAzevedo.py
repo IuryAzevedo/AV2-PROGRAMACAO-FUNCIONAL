@@ -1,6 +1,5 @@
 
 
-
 # users
 IuryCash = lambda : {
     "name": "Iury",
@@ -81,7 +80,6 @@ printPaymentReceipt = lambda user: print(f"Payment receipt printed for transacti
 returnPaymentReceipt = lambda user: f"Payment receipt returned for transaction by {user['name']}"
 
 completeTransaction = lambda user: user.update({"tStatus": "completed"})
-
 
 
 
